@@ -9,7 +9,6 @@
 }
 
 .buttons {
-  min-width: 700px;
   display: flex;
   justify-content: space-around;
 
@@ -33,5 +32,8 @@
   }
 
   & a:hover {
-  transform: scale(1.2);} 
+  transform: scale(1.2);}
+
+  & img {
+  padding: 0px 160px 10px 0px;} 
 }

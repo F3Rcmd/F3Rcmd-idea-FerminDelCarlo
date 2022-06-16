@@ -135,7 +135,6 @@
   box-shadow: 5px 8px 12px black; }
 
 .buttons {
-  min-width: 700px;
   display: flex;
   justify-content: space-around; }
   .buttons li {
@@ -156,6 +155,8 @@
     transition: all .4s ease-in-out; }
   .buttons a:hover {
     transform: scale(1.2); }
+  .buttons img {
+    padding: 0px 160px 10px 0px; }
 
 .barra {
   margin: 0;
@@ -189,3 +190,121 @@
   color: #ff9b6d;
   cursor: pointer;
   display: none; }
+
+/*RESPONSIVE*/
+@media (max-width: 320px) {
+  .menu ul li {
+    width: 90%;
+    padding: 15px 0px;
+    text-align: left; }
+  .hide {
+    display: block; }
+  .menu ul {
+    display: none; }
+  .box img {
+    width: 75px;
+    height: 95px; }
+  .conta {
+    padding: 80px 10px; }
+  .form label input {
+    width: 120px;
+    height: 40px; } }
+
+@media (max-width: 480px) {
+  .menu ul li {
+    width: 90%;
+    padding: 15px 0px;
+    text-align: left; }
+  .hide {
+    display: block; }
+  .menu ul {
+    display: none; }
+  .conta {
+    padding: 100px 10px 135px 10px; }
+  .cess2 {
+    padding: 80px 10px; }
+  .form label input {
+    width: 120px;
+    height: 40px; } }
+
+@media (max-width: 768px) {
+  .menu ul li {
+    width: 90%;
+    padding: 15px 0px;
+    text-align: left; }
+  .hide {
+    display: block; }
+  .menu ul {
+    display: none; }
+  .background {
+    padding: 280px 200px; }
+  .cess {
+    padding: 0px 10px 60px 10px; }
+  .cess2 {
+    padding: 0px 10px 60px 10px; }
+  .conta {
+    padding: 100px 10px 135px 10px; }
+  .form label input {
+    width: 120px;
+    height: 40px; } }
+
+@media (max-width: 1024px) {
+  .menu ul li {
+    width: 90%;
+    padding: 15px 0px;
+    text-align: left; }
+  .hide {
+    display: block; }
+  .menu ul {
+    display: none; }
+  .background {
+    padding: 290px 200px; }
+  .cess {
+    padding: 0px 10px 170px 10px; }
+  .cess2 {
+    padding: 0px 10px 170px 10px; }
+  .cess iframe {
+    height: 500px; }
+  .cess2 iframe {
+    height: 500px; }
+  .conta {
+    padding: 100px 10px 135px 10px; }
+  .form label input {
+    width: 120px;
+    height: 40px; } }
+
+@media (max-width: 1440px) {
+  .background {
+    padding: 290px 200px; }
+  .cess {
+    padding: 0px 10px 170px 10px; }
+  .cess2 {
+    padding: 0px 10px 170px 10px; }
+  .cess iframe {
+    height: 500px; }
+  .cess2 iframe {
+    height: 500px; }
+  .conta {
+    padding: 100px 10px 135px 10px; }
+  .form label input {
+    width: 120px;
+    height: 40px; } }
+
+@media (max-width: 2560px) {
+  .background {
+    padding: 310px 200px; }
+  .cess {
+    padding: 0px 10px 170px 10px; }
+  .cess2 {
+    padding: 0px 10px 170px 10px; }
+  .cess iframe {
+    height: 600px; }
+  .cess2 iframe {
+    height: 600px; }
+  .conta {
+    padding: 100px 10px 135px 10px; }
+  .form label input {
+    width: 120px;
+    height: 40px; } }
+
+/*RESPONSIVE*/
