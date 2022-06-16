@@ -1,0 +1,38 @@
+.barra {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(79, 69, 70);
+
+	& li {
+	display: inline-block;
+	vertical-align: top;
+	font-family: Bahnschrift;
+	padding: 0px 20px;
+    }
+
+    & a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	display: block;
+	line-height: 60px;
+	padding: 0px 35px;
+	position: relative;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff9b6d;
+    transform: skewX(-30deg);
+	}
+}
+
+.hide {	
+  padding: 16px;
+  font-family: Bahnschrift;
+  font-size: 22px;
+  background: rgb(79, 69, 70);
+  color: rgb(255, 155, 109);
+  cursor: pointer;
+  display: none;
+}
