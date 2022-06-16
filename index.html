@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inicio</title>
+    <link rel="shortcut icon" href="pngs/favicon-32x32.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/Estilo.css">	
+</head>
+
+<body class="cuerpo">
+	<div class="cont">
+	<header class="over">
+		<nav class="menu">
+		    <ul class="barra">
+		        <li><a href="index.html">Inicio</a></li>
+		        <li><a href="pages/productos.html">Productos</a></li>
+	            <li><a href="pages/servicios.html">Servicios</a></li>
+		        <li><a href="pages/sobrenosotros.html">Sobre Nosotros</a></li>
+		        <li><a href="pages/contactanos.html">Contactanos</a></li>
+	        </ul>
+
+	        <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i> Menu
+            </div>
+	    </nav>
+	</header>
+
+    <div class="background">
+    	<h1>Titulo</h1>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nostrum voluptatem ut sit ullam minus a animi nam rem, enim, provident sunt amet, laboriosam eaque suscipit. Eveniet iusto possimus atque.</p>
+	</div>
+
+    <footer class="box">
+	    <ul class="buttons">
+            <li><a href="https://www.facebook.com/TandilMimbres/" target="_blank" class="fa fa-facebook"> 	
+            </a></li>
+            <li><a href="https://www.instagram.com/tandil_mimbres/?hl=es-la" target="_blank" class="fa fa-instagram">  	
+            </a></li>
+        </ul>
+	    <img src="pngs/favicon-32x32.png" alt="logo">
+    </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>	
+    <script>
+        $(".hide").on('click', function() {
+        $("nav ul").toggle('slow');
+        })
+    </script>
+
+
+</body>
+
+</html>

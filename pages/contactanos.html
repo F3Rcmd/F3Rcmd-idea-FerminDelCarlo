@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contactanos</title>
+	<link rel="shortcut icon" href="../pngs/favicon-32x32.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/Estilo.css">
+</head>
+
+<body class="cuerpo">
+	<div class="cont3">
+	<header class="over">
+		<nav class="menu">
+			<ul class="barra">
+				<img src="../pngs/favicon-32x32.png" alt="logo">
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+				<li><a href="contactanos.html">Contactanos</a></li>
+			</ul>
+
+			<div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i> Menu
+            </div>
+		</nav>
+	</header>
+
+	<section class="titulo">
+		<h1>Contactanos</h1>
+	</section>
+
+	<section class="conta">
+		<article>
+			<form action="#" class="form">
+				
+				<label for="text">Nombre y Apellido:
+				    <input type="text" placeholder="Nombre Completo"><br>
+				</label>
+
+				<label for="email">Email:
+					<input type="email" name="email"><br>
+				</label>
+				
+				<label for="tel">Telefono:
+				    <input type="tel" placeholder="(Código de área) Número"><br>
+				</label>
+				
+				<div><p>¿Que servicio estas buscando?:</p>
+					<div>Servicio 1
+						<input type="radio" name="servicio" value="uno">
+					</div>
+					<div>Servicio 2
+						<input type="radio" name="servicio" value="dos">
+					</div>
+				</div>
+				
+				<label for="Comentario"> Dejanos un comentario:<br>
+					<textarea></textarea>
+				</label> <br>
+				
+				<input type="submit" value="Enviar">
+				
+			</form>
+		</article>
+	</section>
+    
+    <footer class="box">
+	    <ul class="buttons">
+            <li><a href="https://www.facebook.com/TandilMimbres/" target="_blank" class="fa fa-facebook"> 	
+            </a></li>
+            <li><a href="https://www.instagram.com/tandil_mimbres/?hl=es-la" target="_blank" class="fa fa-instagram">  	
+            </a></li>
+        </ul>
+	    <img src="../pngs/favicon-32x32.png" alt="logo">
+    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(".hide").on('click', function() {
+        $("nav ul").toggle('slow');
+        })
+    </script>
+	
+</body>
+
+</html>
