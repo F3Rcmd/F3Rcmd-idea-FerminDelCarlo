@@ -1,14 +1,17 @@
+$color:(naranja:rgb(255, 155, 109),marron:rgb(79, 69, 70));
+
+
 .barra {
 	margin: 0;
 	padding: 0;
-	background-color: rgb(79, 69, 70);
+	background-color: map-get($color, marron);
 
 	& li {
 	display: inline-block;
 	vertical-align: top;
 	font-family: Bahnschrift;
 	padding: 0px 20px;
-    }
+  }
 
     & a {
 	text-decoration: none;
@@ -31,8 +34,8 @@
   padding: 16px;
   font-family: Bahnschrift;
   font-size: 22px;
-  background: rgb(79, 69, 70);
-  color: rgb(255, 155, 109);
+  background: map-get($color, marron);
+  color: map-get($color, naranja);
   cursor: pointer;
   display: none;
 }

@@ -1,3 +1,8 @@
+@mixin area ($area){
+	grid-area: $area
+}
+
+
 .cont {
 	display: grid;
 	grid-template-areas: 
@@ -33,35 +38,35 @@
 
 
 .over {
-	grid-area: header;	
+	@include area (header);	
 }
 
 .titulo {
-	grid-area: titulo;
+	@include area (titulo);
 }
 
 .background {
-	grid-area: centro;
+	@include area (centro);
 }
 
 .conta {
-	grid-area: centro;
+	@include area (centro);
 }
 
 .cess {
-	grid-area: centro;
+	@include area (centro);
 }
 
 .cess2 {
-	grid-area: centro2;
+	@include area (centro2);
 }
 
 .cess3 {
-	grid-area: centro3;
+	@include area (centro3);
 }
 
 .box {
-	grid-area: footer;
+	@include area (footer);
 }
 
 /*Grid*/

@@ -1,16 +1,28 @@
 .cont {
   display: grid;
-  grid-template-areas: "header header header" "titulo titulo titulo" "centro centro centro" "centro2 centro2 centro2" "centro3 centro3 centro3" "footer footer footer";
+  grid-template-areas: "header header header"
+ "titulo titulo titulo"
+ "centro centro centro"
+ "centro2 centro2 centro2"
+ "centro3 centro3 centro3"
+ "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr; }
 
 .cont2 {
   display: grid;
-  grid-template-areas: "header header header" "titulo titulo titulo" "centro centro centro" "centro2 centro2 centro2" "footer footer footer";
+  grid-template-areas: "header header header"
+ "titulo titulo titulo"
+ "centro centro centro"
+ "centro2 centro2 centro2"
+ "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr; }
 
 .cont3 {
   display: grid;
-  grid-template-areas: "header header header" "titulo titulo titulo" "centro centro centro" "footer footer footer";
+  grid-template-areas: "header header header"
+ "titulo titulo titulo"
+ "centro centro centro"
+ "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr; }
 
 .over {
@@ -22,7 +34,7 @@
 .background {
   grid-area: centro; }
 
-.conta {
+.conta, .cess, .cess2, .cess3 {
   grid-area: centro; }
 
 .cess {
@@ -42,75 +54,29 @@
   margin: 0px; }
 
 .background {
-  background-image: url("../pngs/placeholder.png");
+  background-image: url("../pngs/fondo.jpeg");
   padding: 220px 200px;
   position: relative;
   box-shadow: 5px 8px 12px gray;
   font-family: Bahnschrift;
-  text-align: center; }
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
 
-.conta {
+.conta, .cess, .cess2, .cess3 {
   padding: 20px 10px;
   background-color: #4f4546;
   font-family: Bahnschrift;
   box-shadow: 12px 8px 12px black;
   color: white; }
-  .conta h3 {
+  .conta h3, .cess h3, .cess2 h3, .cess3 h3 {
     background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
     padding: 5px 15px;
     transform: skewX(-30deg); }
-  .conta h2 {
+  .conta h2, .cess h2, .cess2 h2, .cess3 h2 {
     background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
     padding: 5px 15px;
     transform: skewX(-30deg); }
-
-.cess {
-  padding: 20px 10px;
-  background-color: #4f4546;
-  font-family: Bahnschrift;
-  box-shadow: 12px 8px 12px black;
-  color: white; }
-  .cess h3 {
-    background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
-    padding: 5px 15px;
-    transform: skewX(-30deg); }
-  .cess h2 {
-    background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
-    padding: 5px 15px;
-    transform: skewX(-30deg); }
-
-.cess2 {
-  padding: 20px 10px;
-  background-color: #4f4546;
-  font-family: Bahnschrift;
-  box-shadow: 12px 8px 12px black;
-  color: white; }
-  .cess2 h3 {
-    background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
-    padding: 5px 15px;
-    transform: skewX(-30deg); }
-  .cess2 h2 {
-    background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
-    padding: 5px 15px;
-    transform: skewX(-30deg); }
-
-.cess3 {
-  padding: 20px 10px;
-  background-color: #4f4546;
-  font-family: Bahnschrift;
-  box-shadow: 12px 8px 12px black;
-  color: white; }
-  .cess3 h3 {
-    background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
-    padding: 5px 15px;
-    transform: skewX(-30deg); }
-  .cess3 h2 {
-    background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
-    padding: 5px 15px;
-    transform: skewX(-30deg); }
-
-.form {
-  padding: 50px 0; }
 
 .titulo {
   padding: 20px 10px;
@@ -140,7 +106,9 @@
   .buttons li {
     display: inline-block;
     vertical-align: top;
-    padding: 0px 20px; }
+    padding: 0px 20px;
+    font-family: Bahnschrift;
+    color: white; }
   .buttons a {
     text-decoration: none;
     font-size: 28px;
@@ -204,11 +172,8 @@
   .box img {
     width: 75px;
     height: 95px; }
-  .conta {
-    padding: 80px 10px; }
-  .form label input {
-    width: 120px;
-    height: 40px; } }
+  .conta, .cess, .cess2, .cess3 {
+    padding: 80px 10px; } }
 
 @media (max-width: 480px) {
   .menu ul li {
@@ -219,13 +184,10 @@
     display: block; }
   .menu ul {
     display: none; }
-  .conta {
+  .conta, .cess, .cess2, .cess3 {
     padding: 100px 10px 135px 10px; }
   .cess2 {
-    padding: 80px 10px; }
-  .form label input {
-    width: 120px;
-    height: 40px; } }
+    padding: 80px 10px; } }
 
 @media (max-width: 768px) {
   .menu ul li {
@@ -242,11 +204,8 @@
     padding: 0px 10px 60px 10px; }
   .cess2 {
     padding: 0px 10px 60px 10px; }
-  .conta {
-    padding: 100px 10px 135px 10px; }
-  .form label input {
-    width: 120px;
-    height: 40px; } }
+  .conta, .cess, .cess2, .cess3 {
+    padding: 100px 10px 135px 10px; } }
 
 @media (max-width: 1024px) {
   .menu ul li {
@@ -267,11 +226,8 @@
     height: 500px; }
   .cess2 iframe {
     height: 500px; }
-  .conta {
-    padding: 100px 10px 135px 10px; }
-  .form label input {
-    width: 120px;
-    height: 40px; } }
+  .conta, .cess, .cess2, .cess3 {
+    padding: 100px 10px 135px 10px; } }
 
 @media (max-width: 1440px) {
   .background {
@@ -284,11 +240,8 @@
     height: 500px; }
   .cess2 iframe {
     height: 500px; }
-  .conta {
-    padding: 100px 10px 135px 10px; }
-  .form label input {
-    width: 120px;
-    height: 40px; } }
+  .conta, .cess, .cess2, .cess3 {
+    padding: 100px 10px 135px 10px; } }
 
 @media (max-width: 2560px) {
   .background {
@@ -301,10 +254,7 @@
     height: 600px; }
   .cess2 iframe {
     height: 600px; }
-  .conta {
-    padding: 100px 10px 135px 10px; }
-  .form label input {
-    width: 120px;
-    height: 40px; } }
+  .conta, .cess, .cess2, .cess3 {
+    padding: 100px 10px 135px 10px; } }
 
 /*RESPONSIVE*/
