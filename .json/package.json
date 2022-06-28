@@ -1,7 +1,7 @@
 {
-  "name": "act",
+  "name": "Mimbreia-FerminDelCarlo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto final tandil mimbres",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -294,6 +294,6 @@
     "build-css": "node-sass --include-path scss sass/main.scss css/Estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Fermin Del Carlo",
   "license": "ISC"
 }
