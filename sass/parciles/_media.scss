@@ -1,5 +1,5 @@
 /*RESPONSIVE*/
-@media (max-width: 320px) {
+@media (max-width: 425px) {
  .menu ul li {
     width: 90%;
     padding: 15px 0px;
@@ -15,8 +15,7 @@
   }
 
   .box img {
-  	width: 75px;
-  	height: 95px;
+  	display: none;
   }
 
   .conta {

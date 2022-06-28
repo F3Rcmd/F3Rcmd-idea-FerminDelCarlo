@@ -148,7 +148,7 @@
   display: none; }
 
 /*RESPONSIVE*/
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .menu ul li {
     width: 90%;
     padding: 15px 0px;
@@ -158,8 +158,7 @@
   .menu ul {
     display: none; }
   .box img {
-    width: 75px;
-    height: 95px; }
+    display: none; }
   .conta, .cess, .cess2, .cess3 {
     padding: 80px 10px; } }
 
