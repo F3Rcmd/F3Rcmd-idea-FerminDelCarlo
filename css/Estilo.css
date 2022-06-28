@@ -1,28 +1,16 @@
 .cont {
   display: grid;
-  grid-template-areas: "header header header"
- "titulo titulo titulo"
- "centro centro centro"
- "centro2 centro2 centro2"
- "centro3 centro3 centro3"
- "footer footer footer";
+  grid-template-areas: "header header header" "titulo titulo titulo" "centro centro centro" "centro2 centro2 centro2" "centro3 centro3 centro3" "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr; }
 
 .cont2 {
   display: grid;
-  grid-template-areas: "header header header"
- "titulo titulo titulo"
- "centro centro centro"
- "centro2 centro2 centro2"
- "footer footer footer";
+  grid-template-areas: "header header header" "titulo titulo titulo" "centro centro centro" "centro2 centro2 centro2" "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr; }
 
 .cont3 {
   display: grid;
-  grid-template-areas: "header header header"
- "titulo titulo titulo"
- "centro centro centro"
- "footer footer footer";
+  grid-template-areas: "header header header" "titulo titulo titulo" "centro centro centro" "footer footer footer";
   grid-template-columns: 1fr 1fr 1fr; }
 
 .over {
@@ -54,7 +42,7 @@
   margin: 0px; }
 
 .background {
-  background-image: url("../pngs/fondo.jpeg");
+  background-image: url("../pngs/fondo.svg");
   padding: 220px 200px;
   position: relative;
   box-shadow: 5px 8px 12px gray;
