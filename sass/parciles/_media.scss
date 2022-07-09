@@ -14,12 +14,24 @@
   display: none;
   }
 
+  .box{
+    padding: 10px 5px;
+  }
+
   .box img {
   	display: none;
   }
 
   .conta {
   	padding: 80px 10px;
+  }
+
+  .background {
+  background-image: url("../pngs/fondom.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: x-large;
+  text-shadow: 1px 1px 2px black;
   }
 }
 
@@ -92,7 +104,6 @@
 
   .menu ul {
   display: none;
-
   }
 
   .background {
@@ -122,7 +133,7 @@
 
 @media (max-width: 1440px) {
 	.background {
-	padding: 290px 200px;    
+	padding: 295px 200px;    
   }
 
   .cess {
@@ -169,7 +180,7 @@
 
   .conta {
   	padding: 100px 10px 135px 10px;
-  } 
+  }
 }
 
 /*RESPONSIVE*/

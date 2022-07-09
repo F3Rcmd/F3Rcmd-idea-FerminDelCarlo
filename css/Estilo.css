@@ -43,6 +43,7 @@
 
 .background {
   background-image: url("../pngs/fondo.jpeg");
+  background-size: cover;
   padding: 220px 200px;
   position: relative;
   box-shadow: 5px 8px 12px gray;
@@ -55,7 +56,6 @@
   padding: 20px 10px;
   background-color: #4f4546;
   font-family: Bahnschrift;
-  box-shadow: 12px 8px 12px black;
   color: white; }
   .conta h3, .cess h3, .cess2 h3, .cess3 h3 {
     background-image: linear-gradient(45deg, #ff9b6d, #ff9b6d);
@@ -157,10 +157,18 @@
     display: block; }
   .menu ul {
     display: none; }
+  .box {
+    padding: 10px 5px; }
   .box img {
     display: none; }
   .conta, .cess, .cess2, .cess3 {
-    padding: 80px 10px; } }
+    padding: 80px 10px; }
+  .background {
+    background-image: url("../pngs/fondom.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 1px 1px 2px black; } }
 
 @media (max-width: 480px) {
   .menu ul li {
@@ -218,7 +226,7 @@
 
 @media (max-width: 1440px) {
   .background {
-    padding: 290px 200px; }
+    padding: 295px 200px; }
   .cess {
     padding: 0px 10px 170px 10px; }
   .cess2 {

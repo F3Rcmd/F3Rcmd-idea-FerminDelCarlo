@@ -1,9 +1,10 @@
-$color:(naranja:rgb(255, 155, 109),marron:rgb(79, 69, 70));
+	$color:(naranja:rgb(255, 155, 109),marron:rgb(79, 69, 70));
 
 
 
 .background {
 	background-image: url("../pngs/fondo.jpeg");
+	background-size: cover;
 	padding: 220px 200px;
 	position: relative;
 	box-shadow: 5px 8px 12px gray;
@@ -17,7 +18,6 @@ $color:(naranja:rgb(255, 155, 109),marron:rgb(79, 69, 70));
 	padding: 20px 10px;
 	background-color: map-get($color, marron);
 	font-family: Bahnschrift;
-	box-shadow: 12px 8px 12px black;
 	color: white;
 
 	& h3 {
